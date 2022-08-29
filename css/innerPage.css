@@ -1,0 +1,77 @@
+/* Other Links Pages Styling */
+
+/* Falcon-9, Falcon-heavy-dragon Section */
+
+.bg-falcon-9 {
+  background-image: url(../img/falcon-9.webp);
+  position: relative;
+}
+
+.bg-falcon-heavy {
+  background-image: url(../img/falcon-heavy.webp);
+  position: relative;
+}
+.bg-dragon {
+  background-image: url(../img/dragon.webp);
+  position: relative;
+}
+
+
+/* =======   All Sections Inside the Link Pages  ======== */
+.section-animate {
+  animation: fadeIn 5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-animation: fadeIn 5s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+.inner-section-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  animation: fadeIn 2s cubic-bezier(0.68, 1, 0.265, 1);
+  -webkit-animation: fadeIn 2s cubic-bezier(0.68, 1, 0.265, 1);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.inner-section-center h2 {
+  font-size: 80px;
+  margin-bottom: 15px;
+  animation: fadeInUp 0.5s ease-in-out;
+  -webkit-animation: fadeInUp 0.5s ease-in-out;
+  animation-fill-mode: both;
+}
+
+.inner-section-center p {
+  font-size: 20px;
+  animation: fadeInUp 0.5s ease-in-out 0.2s;
+  -webkit-animation: fadeInUp 0.5s ease-in-out 0.2s;
+  animation-fill-mode: both;
+}
+
+/*================ Statistics Animation ===================== */
+
+.stats {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.stats div span {
+  font-size: 160px;
+}
+
+.stats div h4 {
+  font-size: 24px;
+  font-weight: 300;
+}

@@ -1,0 +1,106 @@
+/* All Media Queries  */
+
+
+
+/* For Desktop Menu */
+@media (max-width: 960px) {
+  /* Hide menu for desktop */
+  .main-nav-menu {
+    display: none;
+  }
+  /* Show mobile menus */
+
+  .mobile-only{
+    display: block;
+  }
+  /* Falcon 9 */
+  .inner-section-center{
+    width: 80%;
+  }
+
+  .inner-section-center h2 {
+    font-size: 50px;
+  }
+
+  .inner-section-center p {
+    font-size: 15px;
+  }
+}
+
+/* Mobile menu */
+@media (max-width: 600px) {
+
+  .inner-section{
+    left:20px;
+    bottom: 75px;
+    width:100vw;
+    max-width: 160px;
+    
+  }
+
+  .main-nav-menu {
+    /* display: none; */
+  }
+  
+  .mobile-main-menu{
+    right: 0;
+    top: 0;
+    
+    position: fixed;
+  }
+
+  .inner-section h2 {
+    font-size: 28px;
+    inline-size: 400px;
+  }
+
+  footer ul li:first-child {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+  }
+
+  footer ul li {
+    margin-right: 15px;
+  }
+
+
+  .logo{
+    width: 150px;
+    margin:auto ;
+  }
+
+
+  .logoImg{
+    width: 80%;
+    display: block;
+    height: auto;
+  }
+
+
+
+  /* Falcon 9 */
+  .inner-section-center{
+    width: 80%;
+  }
+
+  .inner-section-center h2 {
+    font-size: 50px;
+  }
+
+/* Stats */
+
+  .stats{
+    flex-direction: column;
+  }
+
+
+  .stats div{
+    margin-bottom: 25px;
+  }
+}
