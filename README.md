@@ -4,10 +4,14 @@
 
 
 # HOMEPAGE
-<img src='/images/NikeSite.png'/>
+file:///home/komal/Pictures/Screenshots/Screenshot%20from%202024-01-04%2009-44-24.png
+
+file:///home/komal/Pictures/Screenshots/Screenshot%20from%202024-01-04%2009-44-48.png
+file:///home/komal/Pictures/Screenshots/Screenshot%20from%202024-01-04%2009-45-17.png
 
 
-### :link: https://komalraza.github.io/
+
+### :link: https://komalraza.github.io/Space-X-Clone/
 
 ## Run Locally
 
@@ -19,5 +23,5 @@
 - HTML5
 - CSS3
 - Javascript ES6
-- Github Pages
-- Github Actions
+- GitHub Pages
+- GitHub Actions
