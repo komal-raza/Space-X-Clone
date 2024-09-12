@@ -10,7 +10,7 @@
 
 
 
-### :link: [https://komal-raza.github.io/Space-X-Clone/]
+### :link: [https://raza-komal.github.io/Space-X-Clone/]
 
 ## Run Locally
 
